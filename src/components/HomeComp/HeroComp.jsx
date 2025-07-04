@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroComp = () => {
     return (
-        <section className='w-[856px] mx-auto flex items-center justify-between py-5'
+        <section className='w-full sm:w-[856px] mx-auto flex flex-col-reverse sm:flex-row items-center justify-between py-5'
         >
             <aside className='w-[60%] flex flex-col justify-start gap-[39px]'>
                 <h1 className='text-[#21243D] text-[44px] font-bold leading-[60px]'>Hi, I am Zeenithra, Frontend Developer</h1>
