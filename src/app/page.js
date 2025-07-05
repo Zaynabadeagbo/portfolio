@@ -9,7 +9,7 @@ export default function Home() {
     <section className="h-full flex flex-col items-center w-full gap-6">
       <HeroComp />
       <RecentPostsComp />
-      < FeaturedWorksComp />
+      <FeaturedWorksComp />
     </section>
   );
 }

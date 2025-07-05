@@ -34,6 +34,8 @@ const FeatureWorksCardComp = ({ title, img, content, btnContent, label }) => {
                     {content}
                 </p>
             </div>
+
+            
         </div>
     )
 }

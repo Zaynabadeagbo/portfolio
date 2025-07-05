@@ -30,8 +30,8 @@ const HeaderComponent = () => {
 
             </div>
             <nav className='w-[236px] hidden sm:flex items-center justify-between '>
-                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='works'>Works</Link>
-                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='blog'>Blog</Link>
+                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='works'>Blog</Link>
+                <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='blog'>Works</Link>
                 <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='contact'>Contact</Link>
             </nav>
 
