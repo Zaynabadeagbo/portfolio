@@ -1,3 +1,4 @@
+import TitleComp from '@/components/common/TitleComp'
 import React from 'react'
 
 

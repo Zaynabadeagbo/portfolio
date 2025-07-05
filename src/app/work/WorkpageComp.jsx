@@ -1,8 +1,9 @@
+import Button from '@/components/common/Button'
+
 import Image from 'next/image'
 import React from 'react'
-import Button from '../common/Button'
 
-const FeatureWorksCardComp = ({ title, img, content, btnContent, label }) => {
+const Workpage = ({ title, img, content, btnContent, label }) => {
     return (
         <div className='w-full h-auto  flex flex-col sm:flex-row gap-2 sm:gap-12 py-2 border-b-2 border-[#E0E0E0]'>
             <div className='w-full sm:w-[200px] h-auto sm:h-[200px]  rounded-[6px] '>
@@ -14,7 +15,7 @@ const FeatureWorksCardComp = ({ title, img, content, btnContent, label }) => {
                     className=' rounded-[6px] sm:absolute '
                     alt='picture1' />
             </div>
-            <div className=' text-[#21243D] text-[30px] font-bold'>
+            <div className=' text-[#21243D] text-[26px] font-bold'>
                 <h3>
                     {/* Designing Dashboards */}
                     {title}
@@ -40,4 +41,4 @@ const FeatureWorksCardComp = ({ title, img, content, btnContent, label }) => {
     )
 }
 
-export default FeatureWorksCardComp
+export default Workpage

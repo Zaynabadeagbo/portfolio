@@ -35,6 +35,9 @@ const HeaderComponent = () => {
                 <Link className='text-[#000000] text-xl font-medium cursor-pointer' href='contact'>Contact</Link>
             </nav>
 
+            
+
+
         </header>
     )
 }

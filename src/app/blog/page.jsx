@@ -6,7 +6,7 @@ const BlogPage = () => {
     return (
         <section className='w-[856px] mx-auto flex flex-col items-start py-5 h-auto'>
 
-            <div className='w-full h-[100px] flex items-start font-bold text-[44px]'>
+            <div className='w-full h-[100px] text-[#21243D] flex items-start font-bold text-[44px]'>
                 Blog
             </div>
 
