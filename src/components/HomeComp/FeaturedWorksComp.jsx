@@ -1,8 +1,6 @@
 import React from 'react'
 import TitleComp from '../common/TitleComp'
-import Image from 'next/image'
 
-import Button from '../common/Button'
 import FeatureWorksCardComp from './FeatureWorksCardComp'
 
 
