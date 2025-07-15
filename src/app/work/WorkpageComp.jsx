@@ -3,7 +3,7 @@ import Button from '@/components/common/Button'
 import Image from 'next/image'
 import React from 'react'
 
-const Workpage = ({ title, img, content, btnContent, label }) => {
+const WorkpageComp = ({ title, img, content, btnContent, label }) => {
     return (
         <div className='w-full h-auto  flex flex-col sm:flex-row gap-2 sm:gap-12 py-2 border-b-2 border-[#E0E0E0]'>
             <div className='w-full sm:w-[200px] h-auto sm:h-[200px]  rounded-[6px] '>
@@ -41,4 +41,4 @@ const Workpage = ({ title, img, content, btnContent, label }) => {
     )
 }
 
-export default Workpage
+export default WorkpageComp

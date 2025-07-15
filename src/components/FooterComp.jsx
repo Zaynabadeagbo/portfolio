@@ -1,5 +1,10 @@
 import React from 'react'
-import { FacebookIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from './common/Icon'
+import {
+     FacebookIcon, 
+     InstagramIcon, 
+     LinkedInIcon, 
+     TwitterIcon 
+    } from './common/Icon'
 
 
 const FooterComp = () => {
